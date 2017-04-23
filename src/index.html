@@ -1,284 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<title>Responsive Website</title>
-	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.css" />
+
 </head>
+
 <body>
 
-<header>
-	<nav class="top">
-		<span class="tel">hotline: 400-888-8888</span>
-		<ul>
-			<li><a href="#">login</a></li>
-			<li><a href="#">register</a></li>
-			<li><a href="#">about</a></li>
-			<li><a href="#">help</a></li>
-			<li><a href="#">download app</a></li>
-		</ul>
-	</nav>
-	<nav class="main">
-		<a href="#" class="brand"><img src="img/logo@1x.png" alt="home"></a>
+	<header>
+		<nav class="top">
+			<span class="tel">hotline: 400-888-8888</span>
+			<ul>
+				<li><a href="#">login</a></li>
+				<li><a href="#">register</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">help</a></li>
+				<li><a href="#">download app</a></li>
+			</ul>
+		</nav>
+		<nav class="main">
+			<a href="#" class="brand"><img src="img/logo@1x.png" alt="home"></a>
 
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Finance</a></li>
-			<li><a href="#">Investment</a></li>
-			<li><a href="#">New User</a></li>
-			<li><a href="#">Security</a></li>
-		</ul>
-	</nav>
-</header>
-<div class="container">
-	<section class="transaction">
-		<div class="trans-content">
-			<div class="trans-data">
-				<span>cumulated transaction amount</span>
-				<span class="trans-money">19888</span>
-				<span>$</span>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Finance</a></li>
+				<li><a href="#">Investment</a></li>
+				<li><a href="#">New User</a></li>
+				<li><a href="#">Security</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<section class="transaction clearfix">
+			<div class="trans-content">
+				<div class="trans-data">
+					<span>cumulated transaction amount</span>
+					<span class="trans-money">19888</span>
+					<span>$</span>
+				</div>
+				<div class="trans-data">
+					<span>last week transaction</span>
+					<span class="trans-money">19888</span>
+					<span>$</span>
+				</div>
+				<div class="trans-report">
+					<a href="#">download report</a>
+				</div>
+
 			</div>
-			<div class="trans-data">
-				<span>last week transaction</span>
-				<span class="trans-money">19888</span>
-				<span>$</span>
+		</section>
+		<div class="ad clearfix">
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+					<picture>
+						<source srcset = "img/ad001-l.png" media="(min-width:50em)">
+						<source srcset = "img/ad001-m.png" media="(min-width:30em)">
+						<img src="img/ad001.png" alt="ad001">
+					</picture>
+
+				</div>
+				<div class="item">
+					<picture>
+						<source srcset = "img/ad002-l.png" media="(min-width:50em)">
+						<source srcset = "img/ad002-m.png" media="(min-width:30em)">
+						<img src="img/ad002.png" alt="ad002">
+					</picture>
+
+				</div>
+				<div class="item">
+					<picture>
+						<source srcset = "img/ad003-l.png" media="(min-width:50em)">
+						<source srcset = "img/ad003-m.png" media="(min-width:30em)">
+						<img src="img/ad003.png" alt="ad003">
+					</picture>
+				</div>
 			</div>
-			<div class="trans-report">
-				<a href="#">download report</a>
+		</div>
+		<section class="feature">\
+			<div class="item">
+				<h3>Safe</h3>
+				<p>Automatically tracks data<br>Financial Education<br>Budgeting Tool</p>
 			</div>
-			
-		</div>
-	</section>
-	<section class="ad">
-		<div class="item">
-			<img src="img/ad001.png" alt="ad001">
-		</div>
-		<div class="item">
-			<img src="img/ad002.png" alt="ad002">
-		</div>
-		<div class="item">
-			<img src="img/ad003.png" alt="ad003">
-		</div>
-	</section>
-	<section class="feature">\
-		<div class="item">
-			<h3>Safe</h3>
-		    <p>Automatically tracks data<br>Financial Education<br>Budgeting Tool</p>			
-		</div>
 
-		<div class="item">
-			<h3>Authority</h3>
-		    <p>Automatically tracks data<br>Financial Education<br>Budgeting Tool</p>			
-		</div>
+			<div class="item">
+				<h3>Authority</h3>
+				<p>Automatically tracks data<br>Financial Education<br>Budgeting Tool</p>
+			</div>
 
-		<div class="item">
-			<h3>Assurance</h3>
-		    <p>Automatically tracks data<br>Financial Education<br>Budgeting Tool</p>			
-		</div>
+			<div class="item">
+				<h3>Assurance</h3>
+				<p>Automatically tracks data<br>Financial Education<br>Budgeting Tool</p>
+			</div>
 
-	</section>
-	<section class="notice clearfix">
-		<a href="#"><span>2017-4-20</span>This is a notification; This is a notification; This is a notification; This is a notification</a>
-		<a href="#" class="more"> more notification...</a>
-	</section>
-	<section class="product clearfix">
-		<h2>
+		</section>
+		<section class="notice clearfix">
+			<a href="#"><span>2017-4-20</span>This is a notification; This is a notification; This is a notification; This is a notification</a>
+			<a href="#" class="more"> more notification...</a>
+		</section>
+		<section class="product clearfix">
+			<h2>
 			fixed term investment
 			<em>selected</em>
 			<em>save effort</em>
 			<em>revenue</em>
 		</h2>
 
-		<div class="product-content">
-		  <div class="item clearfix">
-			<h3><em>3 months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
+			<div class="product-content">
+				<div class="item clearfix">
+					<h3><em>3 months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
 
-          <div class="item clearfix">
-			<h3><em>3-6 months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
 
-          <div class="item clearfix">
-			<h3><em>6-12 months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
+				<div class="item clearfix">
+					<h3><em>3-6 months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
 
-		  <div class="item clearfix">
-			<h3><em>12-24 months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
+
+				<div class="item clearfix">
+					<h3><em>6-12 months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
+
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
+
+				<div class="item clearfix">
+					<h3><em>12-24 months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
+
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
 
 
-          <div class="item clearfix">
-			<h3><em>24+ months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
+				<div class="item clearfix">
+					<h3><em>24+ months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
 
-		</div>
-	</section>
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
 
-	<section class="product clearfix">
-		<h2>
+			</div>
+		</section>
+
+		<section class="product clearfix">
+			<h2>
 			债权/散标
 			<em>selected</em>
 			<em>save effort</em>
 			<em>revenue</em>
 		</h2>
-        <div class="product-content">
-		  <div class="item clearfix">
-			<h3><em>3 months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
+			<div class="product-content">
+				<div class="item clearfix">
+					<h3><em>3 months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
 
-          <div class="item clearfix">
-			<h3><em>5 months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
+
+				<div class="item clearfix">
+					<h3><em>5 months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
+
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
+
+				<div class="item clearfix">
+					<h3><em>7 months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
+
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
+
+				<div class="item clearfix">
+					<h3><em>1 months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
+
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
+
+
+				<div class="item clearfix">
+					<h3><em>12+ months</em></h3>
+					<div class="info">
+						<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
+						<p>total transaction <span class="money">1880<i>m</i></span></p>
+
+					</div>
+					<div class="buy">
+						<a href="#">Purchase</a>
+					</div>
+				</div>
+
 			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
+
+		</section>
+		<nav class="footer">
+			<div class="footer-content clearfix">
+				<p class="brand"></p>
+				<ul>
+					<li class="title">About us</li>
+					<li><a href="#">Company</a></li>
+					<li><a href="#">Service</a></li>
+					<li><a href="#">Partners</a></li>
+					<li><a href="#">Contract</a></li>
+				</ul>
+
+				<ul>
+					<li class="title">Security</li>
+					<li><a href="#">Account Safty</a></li>
+					<li><a href="#">Safty</a></li>
+
+				</ul>
+
+				<ul>
+					<li class="title">Product</li>
+					<li><a href="#">Fixed</a></li>
+					<li><a href="#">散标</a></li>
+				</ul>
+				<ul>
+					<li class="title">Transaction</li>
+					<li><a href="#">purchase</a></li>
+					<li><a href="#">back</a></li>
+					<li><a href="#">withdraw</a></li>
+				</ul>
+
+				<ul>
+					<li class="title">Service</li>
+					<li><a href="#">Center</a></li>
+					<li><a href="#">partners</a></li>
+				</ul>
 			</div>
-		  </div>
+		</nav>
 
-          <div class="item clearfix">
-			<h3><em>7 months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
+	</div>
+	<footer>
+		<ul>
+			<li><span class="icon icon-zfyewkz">Transaction</span></li>
+			<li><span class="icon icon-pcirk">PCI</span></li>
+			<li><span class="icon icon-visayz">VISA</span></li>
+			<li><span class="icon icon-vsjmfw">Versign</span></li>
+			<li><span class="icon icon-wlgs">WLGS</span></li>
+			<li><span class="icon icon-rzcx">E-business</span></li>
+			<li><span class="icon icon-gs">bureau of commerce</span></li>
+		</ul>
+		<p>2017 copy right</p>
+	</footer>
 
-		  <div class="item clearfix">
-			<h3><em>1 months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
-
-
-          <div class="item clearfix">
-			<h3><em>12+ months</em></h3>
-			<div class="info">
-				<p>annuity <span class="year-rate">3.5%<i>from</i></span></p>
-				<p>total transaction <span class="money">1880<i>m</i></span></p>
-				
-			</div>
-			<div class="buy">
-				<a href="#">Purchase</a>
-			</div>
-		  </div>
-
-		</div>
-
-	</section>
-	<nav class="footer">
-		<div class="footer-content clearfix">
-		    <p class="brand"></p>
-			<ul>
-				<li class="title">About us</li>
-				<li><a href="#">Company</a></li>
-				<li><a href="#">Service</a></li>
-				<li><a href="#">Partners</a></li>
-				<li><a href="#">Contract</a></li>
-			</ul>
-
-			<ul>
-				<li class="title">Security</li>
-				<li><a href="#">Account Safty</a></li>
-				<li><a href="#">Safty</a></li>
-				
-			</ul>
-
-			<ul>
-				<li class="title">Product</li>
-				<li><a href="#">Fixed</a></li>
-				<li><a href="#">散标</a></li>
-			</ul>
-			<ul>
-				<li class="title">Transaction</li>
-				<li><a href="#">purchase</a></li>
-				<li><a href="#">back</a></li>
-				<li><a href="#">withdraw</a></li>
-			</ul>
-
-			<ul>
-				<li class="title">Service</li>
-				<li><a href="#">Center</a></li>
-				<li><a href="#">partners</a></li>
-			</ul>
-		</div>
-	</nav>
-	
-</div>
-<footer>
-	<ul>
-		<li><span class="icon icon-zfyewkz">Transaction</span></li>
-		<li><span class="icon icon-pcirk">PCI</span></li>
-		<li><span class="icon icon-visayz">VISA</span></li>
-		<li><span class="icon icon-vsjmfw">Versign</span></li>
-		<li><span class="icon icon-wlgs">WLGS</span></li>
-		<li><span class="icon icon-rzcx">E-business</span></li>
-		<li><span class="icon icon-gs">bureau of commerce</span></li>
-	</ul>	
-	<p>2017 copy right</p>
-</footer>
+	<script src="../node_modules/jquery/dist/jquery.js"></script>
+	<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+	<script src="../node_modules/picturefill/src/picturefill.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
+
 </html>
