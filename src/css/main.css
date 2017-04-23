@@ -3,7 +3,7 @@
  ************/
 
  /* ==========
-  change defualt 
+  change defualt
   ============ */
 
  html{
@@ -22,11 +22,11 @@ ul {
 }
 
 li{
-	list-style: none;	
+	list-style: none;
 }
 
  /* ==========
-   tool 
+   tool
   ============ */
 
 .center-block {
@@ -93,7 +93,7 @@ li{
 
 
  /* ==========
-   customize styling 
+   customize styling
   ============ */
 
 body {
@@ -411,7 +411,14 @@ header .main ul li a.active{
 }
 
 /* notice */
-
+.notice {
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    background-color: #fff;
+    box-shadow: 0 0 4px #ccc;
+}
 .notice a {
     float: left;
     display: inline-block;
@@ -815,10 +822,3 @@ footer p {
     text-align: center;
     color: #999;
 }
-
-
-
-
-
-
-
