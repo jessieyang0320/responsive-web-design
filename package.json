@@ -1,0 +1,26 @@
+{
+  "name": "responsive-web-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessieyang0320/responsive-web-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessieyang0320/responsive-web-design/issues"
+  },
+  "homepage": "https://github.com/jessieyang0320/responsive-web-design#readme",
+  "dependencies": {
+    "owl.carousel": "^2.2.0",
+    "picturefill": "^3.0.2"
+  }
+}
